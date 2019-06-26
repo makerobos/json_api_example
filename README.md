@@ -1,6 +1,6 @@
-#JSON API Docs
+# JSON API Docs
 
-##1.  Sending simple message
+## 1.  Sending simple message
 ```
 {
   "entries":[
@@ -9,7 +9,8 @@
       "message":"click the below button to view the demo." // type:string , max-length:450
     }
   ]
-}```
+}
+```
 
 ## 2.  Sending messages with buttons
 
@@ -75,7 +76,8 @@
     ]
 }
 ```
-4. Sending Images, Videos, Audios
+## 4. Sending Images, Videos, Audios
+```
 {
   "entries":[
     {
@@ -90,6 +92,7 @@
     }
   ]
 }
+```
 
 ## 5.  Setting attribute
 ```
