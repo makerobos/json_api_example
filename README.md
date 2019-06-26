@@ -6,7 +6,7 @@
   "entries":[
     {
       "template_type":"message",
-      "message":"click the below button to view the demo." // type:string , max-length:450
+      "message":"Hi, greetings from Makerobos" // type:string , max-length:450
     }
   ]
 }
@@ -20,17 +20,17 @@
       {
         "template_type":"message",
         "message":"click the below button to view the demo.",
-        "Buttons":[ // maximum three buttons
+        "Buttons":[ // maximum 3 buttons
           {
             "type":"url",
             "url":"https://www.makerobos.com",
-            "webview_height":"new",
+            "webview_height":"full", // "full" | "small" | "medium" | "new" (opens in new tab)
             "title":"Preview"
           },
           {
             "type":"url",
             "url":"https://www.makerobos.com",
-            "webview_height":"new",
+            "webview_height":"small",
             "title":"Preview"
           }
         ]
