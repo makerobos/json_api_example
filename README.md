@@ -5,7 +5,7 @@
 {
   "entries":[
     {
-      "Template_type":"message",
+      "template_type":"message",
       "message":"click the below button to view the demo." // type:string , max-length:450
     }
   ]
@@ -81,7 +81,7 @@
 {
   "entries":[
     {
-      "Template_type":"video", // “image” | “audio” | “video”
+      "template_type":"video", // “image” | “audio” | “video”
       "url":"https://www.youtube.com/watch?v=-JLewvWBkCw",
       "button":{
         "type":"url",
