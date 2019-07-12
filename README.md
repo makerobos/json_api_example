@@ -20,7 +20,7 @@
       {
         "template_type":"message",
         "message":"click the below button to view the demo.",
-        "Buttons":[ // maximum 3 buttons
+        "buttons":[ // maximum 3 buttons
           {
             "type":"url",
             "url":"https://www.makerobos.com",
@@ -46,12 +46,12 @@
     {
       "template_type":"carousel",
       "shadow":true,
-      "Slides":[ // maximum 9 slides
+      "slides":[ // maximum 9 slides
           {
             "title":"some title",
             "subtitle":"some description",
             "image_url":"https://someimage.jpg",
-            "Buttons":[ // maximum three buttons
+            "buttons":[ // maximum three buttons
                 {
                   "type":"url",
                   "url":"https://www.makerobos.com",
@@ -69,7 +69,7 @@
           {
             "title":"some title",
             "subtitle":"some description",
-            "Image_url":"https://www.images.com/someimage.jpg"
+            "image_url":"https://www.images.com/someimage.jpg"
           }
       ]
      }
