@@ -171,3 +171,21 @@
   ]
 }
 ```
+
+
+## 8. Autosuggest using Webhook
+
+### 8.1 key value pair list format
+``` 
+[
+    {"__display":"India", "code":"+91" },
+    {"__display":"US", "code":"+1" },
+    {"__display":"China", "code":"+86" }
+]
+ ```
+### 8.2 new line seperated list
+```
+India
+US
+China
+```
